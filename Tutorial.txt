@@ -1,0 +1,22 @@
+This is a basic explanation of the sooubwayheck language.
+
+The memory consists of a tape 1024 cells long. 
+There is a single pointer on the tape that can move right and left along the tape.
+The pointer starts at the far left side of the tape.
+Cells store a value from -127 to 128.
+The term 'current cell' referrs to the cell currently pointed to by the pointer.
+
+A program consists of the following commands:
+ soubway: move the pointer right 1 cell.
+ sooubway: move the pointer left 1 cell.
+ soooubway: increment the current cell by 1.
+ sooooubway: decrement the current cell by 1.
+ soooooubway: print the ascii character corresponding to the value of the current cell.
+ sooooooubway: input a number and store it in the current cell.
+ soooooooubway: if the current cell is equal to zero, jump forward in the program 
+to the corresponding sooooooooubway command.
+ sooooooooubway: if the current cell is not equal to zero, jump back in the program
+to the corresponding soooooooubway command.
+
+The only case-sensitive letter is o. All other letters can be capital or lowercase.
+See new.sub for an example.
